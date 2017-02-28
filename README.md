@@ -16,7 +16,7 @@ npm install gulp-newer-sass --save-dev
 var gulp = require("gulp");
 
 gulp.task("build-sass", function() {
-    var newer_sass = require("gulp-newer-sass.js");
+    var newer_sass = require("gulp-newer-sass");
     var sass = require("gulp-sass");
     var sourcemaps = require('gulp-sourcemaps');
 
